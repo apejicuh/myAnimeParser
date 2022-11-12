@@ -189,8 +189,6 @@ def main():
                                 commentator_info[commentator_info.find(' г.') - 4: commentator_info.find(' г.')])
                         else:
                             start_year = 0
-                        # print(title_name, title_type, title_genres, title_rate, title_score, user_name, sex, age,
-                        #       start_year, opinion, commentator_review_rate)
 
                         # Записываем результаты в .csv файл
                         with open(_path, 'a', encoding='utf-8', newline='') as file:
